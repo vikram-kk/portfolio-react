@@ -3,9 +3,9 @@ import { CodeXml } from 'lucide-react';
 function About() {
   return (
     <>
-    <div className="w-full h-dvh">
-    <h6 className="text-center font-mono p-6 md:text-sm uppercase">01. about me</h6>
-    <h1 className="text-3xl text-center font-bold text-white capitalize md:text-5xl ">turning ideas into <span className="text-cyan"> reality</span></h1>    
+    <div className="w-full h-auto">
+    <h6 className="intro-heading">01. about me</h6>
+    <h1 className="heading-title">turning ideas into <span className="text-cyan"> reality</span></h1>    
     <div className="grid md:grid-cols-2 place-items-center">
       <div className="w-3/4 tracking-wide text-center pt-6 text-sm text-gray-200/50 md:text-xl md:pl-4 md:ml-20  md:pt-16  md:text-left">
         <p>I'm a passionate Full-Stack Developer with over 5 years of experience building modern web applications.

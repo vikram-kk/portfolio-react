@@ -96,8 +96,22 @@ html,body{
 .about-buttons{
   @apply transition-all duration-300 border border-transparent
 }
+.intro-heading{
+  @apply text-center font-mono p-6 md:text-sm uppercase
+}
+.heading-title{
+  @apply text-3xl text-center font-bold text-white capitalize md:text-5xl 
+}
+.hver-fix{
+  transition: all ease 0.3s;
+}
 }
 
+
+.hver-fix:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 1px 30px rgba(0, 255, 255, 0.438)
+}
 .down-arrow{
   animation-name: updown;
   animation-duration: 0.7s;
@@ -113,7 +127,7 @@ html,body{
 .about-buttons:hover{
     box-shadow:0px 2px 40px rgba(0, 255, 255, 0.542);
     transform: translateY(-5px);
-    border: 2px solid cyan;
+    border: 1px solid cyan;
     will-change: transform;
     backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;

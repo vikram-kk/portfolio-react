@@ -105,6 +105,10 @@ html,body{
 .hver-fix{
   transition: all ease 0.3s;
 }
+.image-projects{
+  border-radius: 12px;
+  transition: all ease 0.3s;
+}
 }
 
 
@@ -131,6 +135,13 @@ html,body{
     will-change: transform;
     backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
+}
+.image-projects:hover{
+  scale: 1.08;
+}
+.gradient-up:hover{
+  background: #00E6FF;
+  background: linear-gradient(356deg, rgba(0, 230, 255, 0.38) 0%, rgba(3, 30, 54, 1) 0%, rgba(3, 18, 41, 0.56) 100%, rgba(3, 18, 41, 0) 100%);
 }
 
 @keyframes updown {

@@ -15,7 +15,7 @@ function Hero() {
             </h2>
           </div>
           <h1 className='main-head'>Hi, i'm <span className='span-head glow'>Vikram Thakur</span></h1>
-          <h2 className='text-center text-gr-head text-xl md:text-3xl'>MERN Stack Developer </h2>
+          <h2 className='text-center text-gr-head text-xl md:text-3xl'>Full Stack Developer </h2>
           <p className='text-center text-gr-head text-sm md:text-xl'>I craft exceptional digital experiences that blend <span className='text-cyan glow-s'>beautiful design</span> with <br /><span className='glow-s text-cyan'>robust functionality.</span></p>
         </div>
         <div className=' flex justify-center flex-col gap-3 items-center mt-14 mb-10 md:flex-row md:mb-8'>

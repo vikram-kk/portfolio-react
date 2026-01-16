@@ -1,4 +1,7 @@
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+const name = "Vikram Thakur";
+const role = "Full Stack Developer";
+const onelinedetail = "I craft exceptional digital experiences that blend ";
 
 function Hero() {
   return (
@@ -14,12 +17,13 @@ function Hero() {
               Available for work
             </h2>
           </div>
-          <h1 className='main-head'>Hi, i'm <span className='span-head glow'>Vikram Thakur</span></h1>
-          <h2 className='text-center text-gr-head text-xl md:text-3xl'>Full Stack Developer </h2>
-          <p className='text-center text-gr-head text-sm md:text-xl'>I craft exceptional digital experiences that blend <span className='text-cyan glow-s'>beautiful design</span> with <br /><span className='glow-s text-cyan'>robust functionality.</span></p>
+          <h1 className='main-head'>Hi, i'm <span className='span-head glow'>{name}</span></h1>
+          <h2 className='text-center text-gr-head text-xl md:text-3xl'>{role}</h2>
+          <p className='text-center text-gr-head text-sm md:text-xl'>{onelinedetail}<span className='text-cyan glow-s'>beautiful design</span> with <br /><span className='glow-s text-cyan'>robust functionality.</span></p>
         </div>
         <div className=' flex justify-center flex-col gap-3 items-center mt-14 mb-10 md:flex-row md:mb-8'>
           <a className='bg-cyan p-2 px-6 w-1/2 text-center text-black md:w-auto md:text-lg rounded-lg capitalize hero-buttons' href="">view projects</a>
+          
           <a className='p-2 text-lg px-6 bg-transparent w-1/2 text-center md:w-auto rounded-lg z-20 hero-buttons capitalize border border-cyan/25' href="">contact me</a>
         </div>
         <div className="flex justify-center gap-6 animate-fade-in p-2" style={{ animationDelay: '0.5s' }}>

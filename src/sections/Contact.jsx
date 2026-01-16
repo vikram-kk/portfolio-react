@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send } from 'lucide-react';
+import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send, Section } from 'lucide-react';
 import ContactInfo from '../components/ContactInfo';
 
 const Contact = () => {
@@ -17,12 +17,13 @@ const Contact = () => {
 
 
   return (
+    <section id='contact'>
     <div className="min-h-screen bg-[#030712] text-white p-8 flex items-center justify-center">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12">
         
         <div className="space-y-6">
-          <ContactInfo Icon={Mail} title="Email" value="hello@mail.dev" />
-          <ContactInfo Icon={MapPin} title="Location" value="Punjab" />
+          <ContactInfo Icon={Mail} title="Email" value="vikrambhumihaar@gmail.com" />
+          <ContactInfo Icon={MapPin} title="Location" value="Punjab, India" />
 
           <div className="mt-8">
             <p className="text-gray-400 mb-4">Follow me on</p>
@@ -81,7 +82,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-cyan-400 hover:bg-cyan-500 text-black font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-cyan-500/20"
+              className="w-full bg-cyan-400 hero-buttons text-black font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-cyan-500/20"
             >
               Send Message <Send size={20} />
             </button>
@@ -90,6 +91,7 @@ const Contact = () => {
 
       </div>
     </div>
+    </section>
   );
 };
 

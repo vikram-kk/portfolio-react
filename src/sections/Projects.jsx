@@ -33,7 +33,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section className='h-auto'>
+    <section id='projects' className='h-auto'>
         <h5 className='intro-heading mt-4'>03 Projects</h5>
         <h1 className='heading-title'>Featured <span className='text-cyan'>Projects</span></h1>
         <p className='text-gray-400 text-sm px-20 py-10 text-center'>A selection of projects that showcase my skills and passion for building great products</p>

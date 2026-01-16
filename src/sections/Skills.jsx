@@ -1,6 +1,3 @@
-import { useRef } from 'react';
-
-
 const skills = [
   { name: 'HTML5', category: 'Frontend', level: 95 },
   { name: 'CSS3', category: 'Frontend', level: 90 },
@@ -22,7 +19,7 @@ const skills = [
 function Skills() {
 
   return (
-    <section  className='w-full min-h-screen'>
+    <section id="skills" className='w-full min-h-screen'>
         <h5 className='intro-heading mt-4'>0.2 My Skills</h5>
         <h1 className='heading-title'>Turning Ideas Into <span className='text-cyan'>Reality</span></h1>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 px-10 gap-6 md:gap-6 lg:gap-8 mt-8 md:px-30'>

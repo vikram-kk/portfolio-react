@@ -5,7 +5,7 @@ function Navbar() {
         { name: 'About', href: '#about' },
         { name: 'Skills', href: '#skills' },
         { name: 'Projects', href: '#projects' },
-        { name: 'Experience', href: '#experience' },
+        // { name: 'Experience', href: '#experience' },
         { name: 'Contact', href: '#contact' },
 ];
     const [Isscrolled,setIscrolled] = useState(false)
@@ -40,7 +40,7 @@ function Navbar() {
         
         
         <div className={`${isOpen?'flex nav-items':'hidden'} md:flex gap-8 items-center`}>
-            {Navlinks.map((links,index)=>(<h4 key={index}><a key={index} href={links.href}>{links.name}</a></h4>))}
+            {Navlinks.map((links,index)=>(<h4 key={index}><a href={links.href}>{links.name}</a></h4>))}
             <button className="bg-cyan px-4 py-2 rounded-2xl text-sm">let's talk</button>
         </div>
       </div>

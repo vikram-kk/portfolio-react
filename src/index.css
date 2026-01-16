@@ -13,6 +13,7 @@ html,body{
   box-sizing: border-box;
   background-color: #080c16;
   color:  hsl(180, 100%, 50%);
+  scroll-behavior: smooth;
   
 }
 

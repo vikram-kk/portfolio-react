@@ -40,7 +40,7 @@ function Navbar() {
         
         
         <div className={`${isOpen?'flex nav-items':'hidden'} md:flex gap-8 items-center`}>
-            {Navlinks.map((links,index)=>(<h4 key={index}><a href={links.href}>{links.name}</a></h4>))}
+            {Navlinks.map((links,index)=>(<h4 onClick={()=>setIsOpen(false)} key={index}><a href={links.href}>{links.name}</a></h4>))}
             <button className="bg-cyan px-4 py-2 rounded-2xl text-sm">let's talk</button>
         </div>
       </div>

@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send, Section } from 'lucide-react';
 import ContactInfo from '../components/ContactInfo';
 
+const social = [{label:Github, link:"https://github.com/vikram-kk"},
+     {label:Linkedin, link:"https://www.linkedin.com/in/vikram-thakur-2911dec"},]
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -28,11 +31,13 @@ const Contact = () => {
           <div className="mt-8">
             <p className="text-gray-400 mb-4">Follow me on</p>
             <div className="flex gap-4">
-              {[Github, Linkedin, Twitter].map((SocialIcon, idx) => (
-                <a key={idx} href="#" className="bg-[#0a121e] border border-gray-800 p-3 rounded-xl hover:bg-gray-800 transition-colors">
+              {social.map((item, idx) => {
+                const SocialIcon = item.label
+                return(
+                <a key={idx} href={item.link} className="bg-[#0a121e] border border-gray-800 p-3 rounded-xl hover:bg-gray-800 transition-colors">
                   <SocialIcon size={20} className="text-gray-400" />
                 </a>
-              ))}
+              )})}
             </div>
           </div>
         </div>

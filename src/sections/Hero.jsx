@@ -22,13 +22,13 @@ function Hero() {
           <p className='text-center text-gr-head text-sm md:text-xl'>{onelinedetail}<span className='text-cyan glow-s'>beautiful design</span> with <br /><span className='glow-s text-cyan'>robust functionality.</span></p>
         </div>
         <div className=' flex justify-center flex-col gap-3 items-center mt-14 mb-10 md:flex-row md:mb-8'>
-          <a className='bg-cyan p-2 px-6 w-1/2 text-center text-black md:w-auto md:text-lg rounded-lg capitalize hero-buttons' href="">view projects</a>
+          <a className='bg-cyan p-2 px-6 w-1/2 text-center text-black md:w-auto md:text-lg rounded-lg capitalize hero-buttons' href="#projects">view projects</a>
           
-          <a className='p-2 text-lg px-6 bg-transparent w-1/2 text-center md:w-auto rounded-lg z-20 hero-buttons capitalize border border-cyan/25' href="">contact me</a>
+          <a className='p-2 text-lg px-6 bg-transparent w-1/2 text-center md:w-auto rounded-lg z-20 hero-buttons capitalize border border-cyan/25' href="#contact">contact me</a>
         </div>
         <div className="flex justify-center gap-6 animate-fade-in p-2" style={{ animationDelay: '0.5s' }}>
           <a
-            href="https://github.com"
+            href="https://github.com/vikram-kk"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 glass-card hover:border-primary/50 transition-all duration-300 group"
@@ -36,7 +36,7 @@ function Hero() {
             <Github size={22} className="text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/vikram-thakur-2911dec"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 glass-card hover:border-primary/50 transition-all duration-300 group"
@@ -44,7 +44,7 @@ function Hero() {
             <Linkedin size={22} className="text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a
-            href="mailto:hello@johndoe.dev"
+            href="mailto:vikrambhumihaar@gmail.com"
             className="p-3 glass-card hover:border-primary/50 transition-all duration-300 group"
           >
             <Mail size={22} className="text-muted-foreground group-hover:text-primary transition-colors" />

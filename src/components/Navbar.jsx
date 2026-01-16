@@ -31,7 +31,7 @@ function Navbar() {
     <nav className="fixed top-0 right-0 left-0 z-50  h-20 ">
       <div className={`nav-cl ${Isscrolled && 'bg-card/70 backdrop-blur-xl '}`}>
 
-        <h1>{`<vt>`}</h1>
+        <h1>{`<vt/>`}</h1>
         <h1 
         onClick={()=>setIsOpen(!isOpen)}
         className={`absolute right-2 md:hidden`}>

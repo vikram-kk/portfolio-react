@@ -7,27 +7,6 @@ const projects = [
     description:
       "A social impact platform that helps rescue injured and abandoned animals by connecting users with nearby NGOs, veterinarians, and animal welfare organizations in emergencies.",
     tech: ["React", "Node.js", "Express", "MongoDB", "Maps API"]
-  },
-  {
-    img: "../public/images/pawapp1.jpeg",
-    title: "Kanban Todo Board",
-    description:
-      "A task management application with drag-and-drop functionality that helps users organize tasks into columns like Todo, In Progress, and Done.",
-    tech: ["React", "Drag & Drop API", "Tailwind CSS", "Local Storage"]
-  },
-  {
-    img: "../public/images/pawapp1.jpeg",
-    title: "Todo Application",
-    description:
-      "A simple and efficient todo app that allows users to add, edit, delete, and mark tasks as completed with a clean and responsive UI.",
-    tech: ["React", "JavaScript", "CSS", "Local Storage"]
-  },
-  {
-    img: "../public/images/pawapp1.jpeg",
-    title: "Developer Portfolio",
-    description:
-      "A modern and responsive personal portfolio website showcasing projects, skills, and contact information with smooth animations.",
-    tech: ["React", "GSAP", "Tailwind CSS"]
   }
 ];
 
